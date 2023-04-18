@@ -1,0 +1,16 @@
+* {
+  color: wheat;
+  --bg-1: #333333;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 100vw;
+  justify-content: center;
+  /* centers vertically */
+  align-items: center;
+  /* centers horizontally */
+  background-color: var(--bg-1);
+}
